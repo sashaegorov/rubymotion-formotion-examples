@@ -19,6 +19,15 @@ class AppDelegate
           subtitle: 'Cell selection style none',
           selection_style: UITableViewCellSelectionStyleNone
         }]
+      },{
+        title: "Keyboard type",
+        rows: [{
+          # http://www.rubymotion.com/developer-center/api/UIReturnKeyType.html
+          title: 'URL',
+          type: :object,
+          subtitle: 'Return key is now ‘Go’',
+          return_key: UIReturnKeyGo
+        }]
       }]
     })
 
