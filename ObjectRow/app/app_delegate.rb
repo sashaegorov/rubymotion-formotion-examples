@@ -12,6 +12,12 @@ class AppDelegate
           type: :object,
           subtitle: 'Example of object row',
           value: '…this is value'
+          },{
+          # https://developer.apple.com/library/ios/documentation/uikit/reference/UITableViewCell_Class/Reference/Reference.html
+          title: 'Tap me',
+          type: :object,
+          subtitle: 'Cell selection style none',
+          selection_style: UITableViewCellSelectionStyleNone
         }]
       }]
     })
