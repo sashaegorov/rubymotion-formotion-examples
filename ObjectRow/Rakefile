@@ -11,4 +11,7 @@ end
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'ObjectRow'
+  # app.sdk_version = '6.1'
+  # app.icons = ["Icon.png", "Icon@2x.png"]
+  app.prerendered_icon = true
 end
